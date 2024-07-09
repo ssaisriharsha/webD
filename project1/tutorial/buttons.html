@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <title>Buttons</title>
+</head>
+<body>
+    <style>
+        .sub {
+            background-color: rgb(204,0,0);
+            color: white;
+            height: 40px;
+            width: 100px;
+            border: none;
+            border-radius: 3px;
+            margin: 20px;
+            margin-right: 0px;
+            cursor: pointer;
+            transition: opacity 0.15s;
+        }
+        .sub:hover {
+            opacity: 0.8;
+            transition: opacity 0.15s;
+        }
+        .sub:active {
+            opacity: 0.6;
+        }
+        .join {
+            background-color: white;
+            color: rgb(6,95,212);
+            border-color: rgb(6,95,212);
+            height: 40px;
+            width: 70px;    
+            border-radius: 3px;
+            border-style: solid;
+            border-width: 1px;
+            cursor: pointer;
+            transition: backgroung-color 0.15s, color 0.15s, border-color 0.15s;
+        }
+        .join:hover {
+            background-color: rgb(6,95,212);
+            color: white;
+            border-color: white;
+            transition: opacity 0.15s;
+        }
+        .join:active {
+            opacity: 0.7;
+        }
+        .tweet {
+            background-color: rgb(29,155,240);
+            color: white;
+            font-weight: bold;
+            height: 40px;
+            width: 60px;
+            border: none;
+            border-radius: 35px;
+            cursor: pointer;
+            transition: box-shadow 0.15s;
+        }
+        .tweet:hover {
+            box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2   );
+        }
+    </style>
+    <button class="sub">SUBSCRIBE</button>     
+    <button class="join">JOIN</button>
+    <button class="tweet">Tweet</button>
+</body>
